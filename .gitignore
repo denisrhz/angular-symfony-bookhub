@@ -1,0 +1,12 @@
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.log
+
+.env
+
+/backend/var/*.db
+/backend/var/*.db-journal
+
+.docker/

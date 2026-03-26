@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+  <span>📚 My Library</span>
+  <span class="spacer"></span>
+  <a mat-button routerLink="/books" routerLinkActive="active-link">Книги</a>
+  <a mat-button routerLink="/authors" routerLinkActive="active-link">Авторы</a>
+</mat-toolbar>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<style>
+  .spacer { flex: 1 1 auto; }
+  .container { padding: 20px; }
+  .active-link { background: rgba(255, 255, 255, 0.2); }
+</style>
